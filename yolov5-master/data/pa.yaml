@@ -1,0 +1,10 @@
+
+
+train: ../dataset/train/images/  # train images (relative to 'path') 1742289 images
+val: ../2024_A03/test/images/  # val images (relative to 'path') 80000 images
+# test: ../dataset/test/images/ # test images (optional)
+
+#classes
+names:
+  0: abnormal
+  1: normal

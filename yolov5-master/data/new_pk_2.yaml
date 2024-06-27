@@ -1,0 +1,10 @@
+
+
+train: ./new_dataset_3/data/train/images/  # train images (relative to 'path') 1742289 images
+val: ./new_dataset_3/data/val/images/ # val images (relative to 'path') 80000 images
+test: ./new_dataset_3/data/test/images/ # test images (optional)
+
+#classes
+names:
+  0: HC
+  1: PD
